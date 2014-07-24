@@ -3,14 +3,30 @@ a {
 	text-decoration: none;
 }
 
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .button {
 	border: solid 1px #563d7c;
 	border-radius: 6px;
 	padding: 10px;
 }
 
+.container3 {
+	width: 33%;
+}
+
+.container4 {
+	width: 25%;
+}
+
 .first {
 	background-color: #6f5499;
+}
+
+.navbar .home {
+	font-size: 18px;
 }
 
 .navbar ul li,
@@ -20,10 +36,14 @@ a {
 
 .navbar {
 	height: 50px;
+	/*padding-left: 25px;*/
 }
 
-.navbar a {
-	display: inline-block;
+/* anchor tag is an inline element, padding doesn't apply correctly */
+.navbar a { 
+	display: block;
 	color: #563d7c;
 	padding: 15px;
+	/*font-weight: bold;*/
+	font-size: 14px;
 }
